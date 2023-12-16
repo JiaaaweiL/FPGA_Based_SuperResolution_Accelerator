@@ -1,0 +1,48 @@
+05:23:04 **** Build of configuration Debug for project mult_matrix ****
+make all 
+Building file: C:/Study_Grad/UIUC_ECE527/MP3/MP3_Starter_Design/multiply_tb.cpp
+Invoking: GCC C++ Compiler
+g++ -ID:/Vivado/Vivado/2019.1/include/ap_sysc -IC:/Study_Grad/UIUC_ECE527/MP3 -ID:/Vivado/Vivado/2019.1/win64/tools/systemc/include -ID:/Vivado/Vivado/2019.1/include -ID:/Vivado/Vivado/2019.1/include/etc -ID:/Vivado/Vivado/2019.1/win64/tools/auto_cc/include -O0 -g3 -Wall -Wno-unknown-pragmas -c -fmessage-length=0 -MMD -MP -MF"testbench/multiply_tb.d" -MT"testbench/multiply_tb.d" -o "testbench/multiply_tb.o" "C:/Study_Grad/UIUC_ECE527/MP3/MP3_Starter_Design/multiply_tb.cpp"
+Finished building: C:/Study_Grad/UIUC_ECE527/MP3/MP3_Starter_Design/multiply_tb.cpp
+ 
+Building file: C:/Study_Grad/UIUC_ECE527/MP3/MP3_Starter_Design/multiply.cpp
+Invoking: GCC C++ Compiler
+g++ -DAESL_TB -D__llvm__ -D__llvm__ -ID:/Vivado/Vivado/2019.1/include/ap_sysc -IC:/Study_Grad/UIUC_ECE527/MP3 -ID:/Vivado/Vivado/2019.1/win64/tools/systemc/include -ID:/Vivado/Vivado/2019.1/include -ID:/Vivado/Vivado/2019.1/include/etc -ID:/Vivado/Vivado/2019.1/win64/tools/auto_cc/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"source/multiply.d" -MT"source/multiply.o" -o "source/multiply.o" "C:/Study_Grad/UIUC_ECE527/MP3/MP3_Starter_Design/multiply.cpp"
+C:/Study_Grad/UIUC_ECE527/MP3/MP3_Starter_Design/multiply.cpp:30:0: warning: ignoring #pragma HLS pipeline [-Wunknown-pragmas]
+   #pragma HLS pipeline
+ 
+C:/Study_Grad/UIUC_ECE527/MP3/MP3_Starter_Design/multiply.cpp:31:0: warning: ignoring #pragma HLS unroll [-Wunknown-pragmas]
+   #pragma HLS unroll factor=16
+ 
+C:/Study_Grad/UIUC_ECE527/MP3/MP3_Starter_Design/multiply.cpp:46:0: warning: ignoring #pragma HLS pipeline [-Wunknown-pragmas]
+  #pragma HLS pipeline
+ 
+C:/Study_Grad/UIUC_ECE527/MP3/MP3_Starter_Design/multiply.cpp:61:0: warning: ignoring #pragma HLS dataflow [-Wunknown-pragmas]
+ #pragma HLS dataflow
+ 
+C:/Study_Grad/UIUC_ECE527/MP3/MP3_Starter_Design/multiply.cpp:62:0: warning: ignoring #pragma HLS interface [-Wunknown-pragmas]
+ #pragma HLS interface m_axi port=A depth=16384
+ 
+C:/Study_Grad/UIUC_ECE527/MP3/MP3_Starter_Design/multiply.cpp:63:0: warning: ignoring #pragma HLS interface [-Wunknown-pragmas]
+ #pragma HLS interface m_axi port=B depth=16384
+ 
+C:/Study_Grad/UIUC_ECE527/MP3/MP3_Starter_Design/multiply.cpp:64:0: warning: ignoring #pragma HLS interface [-Wunknown-pragmas]
+ #pragma HLS interface m_axi port=C depth=16384
+ 
+C:/Study_Grad/UIUC_ECE527/MP3/MP3_Starter_Design/multiply.cpp:65:0: warning: ignoring #pragma HLS interface [-Wunknown-pragmas]
+ #pragma HLS interface s_axilite port=return
+ 
+C:/Study_Grad/UIUC_ECE527/MP3/MP3_Starter_Design/multiply.cpp:66:0: warning: ignoring #pragma HLS array_partition [-Wunknown-pragmas]
+ #pragma HLS array_partition variable=C_buffer cyclic dim=2 factor=16
+ 
+C:/Study_Grad/UIUC_ECE527/MP3/MP3_Starter_Design/multiply.cpp:67:0: warning: ignoring #pragma HLS array_partition [-Wunknown-pragmas]
+ #pragma HLS array_partition variable=C_buffer cyclic dim=1 factor=16
+ 
+C:/Study_Grad/UIUC_ECE527/MP3/MP3_Starter_Design/multiply.cpp:68:0: warning: ignoring #pragma HLS array_partition [-Wunknown-pragmas]
+ #pragma HLS array_partition variable=B_buffer cyclic dim=2 factor=16
+ 
+C:/Study_Grad/UIUC_ECE527/MP3/MP3_Starter_Design/multiply.cpp:22:1: error: expected initializer before 'void'
+ void matrix_mult(
+ ^~~~
+make: *** [source/multiply.o] Error 1
+source/subdir.mk:18: recipe for target 'source/multiply.o' failed

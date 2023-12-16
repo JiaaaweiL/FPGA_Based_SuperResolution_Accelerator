@@ -1,0 +1,7 @@
+22:17:56 INFO  : Registering command handlers for SDK TCF services
+22:17:56 INFO  : Launching XSCT server: xsct.bat -interactive E:\UIUC_GRAD\UIUC_ECE527\Final_project\try_block_design\try_block_design.sdk\temp_xsdb_launch_script.tcl
+22:17:59 INFO  : XSCT server has started successfully.
+22:17:59 INFO  : Successfully done setting XSCT server connection channel  
+22:18:01 INFO  : Processing command line option -hwspec E:/UIUC_GRAD/UIUC_ECE527/Final_project/try_block_design/try_block_design.sdk/design_1_wrapper.hdf.
+22:18:01 INFO  : Successfully done setting SDK workspace  
+22:34:08 INFO  : Refreshed build settings on project helloworld

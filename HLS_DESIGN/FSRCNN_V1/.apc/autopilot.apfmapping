@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="xf_video_types.h" path="C:\Users\76114\Desktop\xfopencv-master\xfopencv-master\xfopencv-master\include\common\xf_video_types.h"/>
+    <originFiles name="xf_video_mem.h" path="C:\Users\76114\Desktop\xfopencv-master\xfopencv-master\xfopencv-master\include\common\xf_video_mem.h"/>
+    <originFiles name="xf_video_core.h" path="C:\Users\76114\Desktop\xfopencv-master\xfopencv-master\xfopencv-master\include\common\xf_video_core.h"/>
+    <originFiles name="xf_utility.h" path="C:\Users\76114\Desktop\xfopencv-master\xfopencv-master\xfopencv-master\include\common\xf_utility.h"/>
+    <originFiles name="xf_types.h" path="C:\Users\76114\Desktop\xfopencv-master\xfopencv-master\xfopencv-master\include\common\xf_types.h"/>
+    <originFiles name="xf_sw_utils.h" path="C:\Users\76114\Desktop\xfopencv-master\xfopencv-master\xfopencv-master\include\common\xf_sw_utils.h"/>
+    <originFiles name="xf_structs.h" path="C:\Users\76114\Desktop\xfopencv-master\xfopencv-master\xfopencv-master\include\common\xf_structs.h"/>
+    <originFiles name="xf_phase.hpp" path="C:\Users\76114\Desktop\xfopencv-master\xfopencv-master\xfopencv-master\include\core\xf_phase.hpp"/>
+    <originFiles name="xf_params.h" path="C:\Users\76114\Desktop\xfopencv-master\xfopencv-master\xfopencv-master\include\common\xf_params.h"/>
+    <originFiles name="xf_min_max_loc.hpp" path="C:\Users\76114\Desktop\xfopencv-master\xfopencv-master\xfopencv-master\include\core\xf_min_max_loc.hpp"/>
+    <originFiles name="xf_mean_stddev.hpp" path="C:\Users\76114\Desktop\xfopencv-master\xfopencv-master\xfopencv-master\include\core\xf_mean_stddev.hpp"/>
+    <originFiles name="xf_math.h" path="C:\Users\76114\Desktop\xfopencv-master\xfopencv-master\xfopencv-master\include\core\xf_math.h"/>
+    <originFiles name="xf_magnitude.hpp" path="C:\Users\76114\Desktop\xfopencv-master\xfopencv-master\xfopencv-master\include\core\xf_magnitude.hpp"/>
+    <originFiles name="xf_infra.h" path="C:\Users\76114\Desktop\xfopencv-master\xfopencv-master\xfopencv-master\include\common\xf_infra.h"/>
+    <originFiles name="xf_convert_bitdepth.hpp" path="C:\Users\76114\Desktop\xfopencv-master\xfopencv-master\xfopencv-master\include\core\xf_convert_bitdepth.hpp"/>
+    <originFiles name="xf_common.h" path="C:\Users\76114\Desktop\xfopencv-master\xfopencv-master\xfopencv-master\include\common\xf_common.h"/>
+    <originFiles name="xf_axi_sdata.h" path="C:\Users\76114\Desktop\xfopencv-master\xfopencv-master\xfopencv-master\include\common\xf_axi_sdata.h"/>
+    <originFiles name="xf_axi_io.h" path="C:\Users\76114\Desktop\xfopencv-master\xfopencv-master\xfopencv-master\include\common\xf_axi_io.h"/>
+    <originFiles name="xf_arithm.hpp" path="C:\Users\76114\Desktop\xfopencv-master\xfopencv-master\xfopencv-master\include\core\xf_arithm.hpp"/>
+    <originFiles name="wrapper.hpp" path="C:\Users\76114\Desktop\FSRCNN_V1\wrapper.hpp"/>
+    <originFiles name="layer8.h" path="C:\Users\76114\Desktop\FSRCNN_V1\layer8.h"/>
+    <originFiles name="layer7.h" path="C:\Users\76114\Desktop\FSRCNN_V1\layer7.h"/>
+    <originFiles name="layer6.h" path="C:\Users\76114\Desktop\FSRCNN_V1\layer6.h"/>
+    <originFiles name="layer5.h" path="C:\Users\76114\Desktop\FSRCNN_V1\layer5.h"/>
+    <originFiles name="layer4.h" path="C:\Users\76114\Desktop\FSRCNN_V1\layer4.h"/>
+    <originFiles name="layer3.h" path="C:\Users\76114\Desktop\FSRCNN_V1\layer3.h"/>
+    <originFiles name="layer2.h" path="C:\Users\76114\Desktop\FSRCNN_V1\layer2.h"/>
+    <originFiles name="layer1.h" path="C:\Users\76114\Desktop\FSRCNN_V1\layer1.h"/>
+    <originFiles name="imageinfo.h" path="C:\Users\76114\Desktop\FSRCNN_V1\imageinfo.h"/>
+    <originFiles name="FSRCNN.cpp" path="C:\Users\76114\Desktop\FSRCNN_V1\FSRCNN.cpp"/>
+  </source>
+  <testbench/>
+</autopilotfilemapping:AutoPilotFileMapping>

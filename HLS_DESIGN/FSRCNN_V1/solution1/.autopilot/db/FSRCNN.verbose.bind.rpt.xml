@@ -1,0 +1,54 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'FSRCNN'" level="0">
+<item name = "Date">Fri Dec 15 20:47:52 2023
+</item>
+<item name = "Version">2019.1 (Build 2552052 on Fri May 24 15:28:33 MDT 2019)</item>
+<item name = "Project">FSRCNN_V1</item>
+<item name = "Solution">solution1</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z020-clg400-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing (ns)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00, 9.634, 1.25</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency (clock cycles)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">, min, max, min, max, Type</keys>
+<column name="">20473506, 55373730, 20472578, 55372682, dataflow</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="7">Instance, Module, min, max, min, max, Type</keys>
+<column name="grp_layer3_fu_1240">layer3, 57289, 31433161, 57289, 31433161, none</column>
+<column name="grp_layer8_fu_1262">layer8, 73855, 55372681, 73855, 55372681, none</column>
+<column name="grp_layer6_fu_1282">layer6, 57223, 34168663, 57223, 34168663, none</column>
+<column name="grp_layer4_fu_1304">layer4, 57289, 31487809, 57289, 31487809, none</column>
+<column name="grp_layer5_fu_1326">layer5, 57289, 33459097, 57289, 33459097, none</column>
+<column name="grp_layer1_fu_1348">layer1, 477, 31355889, 477, 31355889, none</column>
+<column name="grp_Loop_1_proc221_fu_1377">Loop_1_proc221, 16396, 16396, 16396, 16396, none</column>
+<column name="grp_layer2_fu_1402">layer2, 19967233, 19967233, 19967233, 19967233, none</column>
+<column name="grp_layer7_fu_1424">layer7, 20472577, 20472577, 20472577, 20472577, none</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

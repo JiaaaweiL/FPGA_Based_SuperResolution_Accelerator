@@ -1,0 +1,55 @@
+23:30:00 **** Auto Build of configuration Debug for project helloworld ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../helloworld_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:66:2: error: unknown type name 'XFsrcnn'
+  XFsrcnn accelerator;
+  ^~~~~~~
+../src/helloworld.c:67:2: error: unknown type name 'XFsrcnn_Config'
+  XFsrcnn_Config * accelerator_config;
+  ^~~~~~~~~~~~~~
+../src/helloworld.c:69:23: warning: implicit declaration of function 'XFsrcnn_LookupConfig' [-Wimplicit-function-declaration]
+  accelerator_config = XFsrcnn_LookupConfig(XPAR_XFSRCNN_0_DEVICE_ID);
+                       ^~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:69:21: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  accelerator_config = XFsrcnn_LookupConfig(XPAR_XFSRCNN_0_DEVICE_ID);
+                     ^
+../src/helloworld.c:75:23: warning: implicit declaration of function 'XFsrcnn_CfgInitialize' [-Wimplicit-function-declaration]
+  accelerator_config = XFsrcnn_CfgInitialize(&accelerator, accelerator_config);
+                       ^~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:75:21: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  accelerator_config = XFsrcnn_CfgInitialize(&accelerator, accelerator_config);
+                     ^
+../src/helloworld.c:76:5: error: 'status' undeclared (first use in this function); did you mean 'fatfs'?
+  if(status != XST_SUCCESS){
+     ^~~~~~
+     fatfs
+../src/helloworld.c:76:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:76:15: error: 'XST_SUCCESS' undeclared (first use in this function)
+  if(status != XST_SUCCESS){
+               ^~~~~~~~~~~
+../src/helloworld.c:61:15: warning: unused variable 'SD_File' [-Wunused-variable]
+  static char *SD_File;
+               ^~~~~~~
+../src/helloworld.c:60:15: warning: unused variable 'fatfs' [-Wunused-variable]
+  static FATFS fatfs;
+               ^~~~~
+../src/helloworld.c:59:13: warning: unused variable 'fil' [-Wunused-variable]
+  static FIL fil;  /* File object */
+             ^~~
+At top level:
+../src/helloworld.c:59:13: warning: 'fil' defined but not used [-Wunused-variable]
+../src/helloworld.c:60:15: warning: 'fatfs' defined but not used [-Wunused-variable]
+  static FATFS fatfs;
+               ^~~~~
+../src/helloworld.c:61:15: warning: 'SD_File' defined but not used [-Wunused-variable]
+  static char *SD_File;
+               ^~~~~~~
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+
+23:30:00 Build Finished (took 281ms)
+

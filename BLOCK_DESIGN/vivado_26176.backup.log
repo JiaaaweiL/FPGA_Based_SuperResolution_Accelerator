@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Dec 15 19:19:16 2023
+# Process ID: 26176
+# Current directory: E:/UIUC_GRAD/UIUC_ECE527/Final_project/try_block_design
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20304 E:\UIUC_GRAD\UIUC_ECE527\Final_project\try_block_design\try_block_design.xpr
+# Log file: E:/UIUC_GRAD/UIUC_ECE527/Final_project/try_block_design/vivado.log
+# Journal file: E:/UIUC_GRAD/UIUC_ECE527/Final_project/try_block_design\vivado.jou
+#----------------------------------------------------------ststart_guopopen_project E:/UIUC_GRAD/UIUC_ECE527/Final_project/try_block_design/try_block_design.xpScScanning sources...
+Finished scanning sourceININFO: [IP_Flow 19-234] Refreshing IP repositorieININFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/UIUC_GRAD/UIUC_ECE527/Final_project/FSRCNN_V5'ININFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2019.1/data/ip'opopen_project: Time (s): cpu = 00:00:37 ; elapsed = 00:00:42 . Memory (MB): peak = 881.449 ; gain = 279.56upupdate_compile_order -fileset sources_exexit
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 15 19:21:47 2023...
+ry_block_design.srcs/sources_1/bd/design_1/design_1.bd}
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - axi_smc
+Adding component instance block -- xilinx.com:hls:FSRCNN:1.0 - FSRCNN_0
+Excluding </processing_system7_0/S_AXI_ACP/ACP_IOP> from </axi_dma_0/Data_MM2S>
+Excluding </processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> from </axi_dma_0/Data_MM2S>
+Excluding </processing_system7_0/S_AXI_ACP/ACP_IOP> from </axi_dma_0/Data_S2MM>
+Excluding </processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> from </axi_dma_0/Data_S2MM>
+Successfully read diagram <design_1> from BD file <E:/UIUC_GRAD/UIUC_ECE527/Final_project/try_block_design/try_block_design.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:17 . Memory (MB): peak = 1147.934 ; gain = 23.848
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 15 19:21:39 2023...

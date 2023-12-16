@@ -1,0 +1,212 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'FSRCNN'" level="0">
+<item name = "Date">Fri Dec 15 20:48:32 2023
+</item>
+<item name = "Version">2019.1 (Build 2552052 on Fri May 24 15:28:33 MDT 2019)</item>
+<item name = "Project">FSRCNN_V1</item>
+<item name = "Solution">solution1</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z020-clg400-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing (ns)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00, 9.634, 1.25</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency (clock cycles)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">, min, max, min, max, Type</keys>
+<column name="">20473506, 55373730, 20472578, 55372682, dataflow</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="7">Instance, Module, min, max, min, max, Type</keys>
+<column name="layer3_U0">layer3, 57289, 31433161, 57289, 31433161, none</column>
+<column name="layer8_U0">layer8, 73855, 55372681, 73855, 55372681, none</column>
+<column name="layer6_U0">layer6, 57223, 34168663, 57223, 34168663, none</column>
+<column name="layer4_U0">layer4, 57289, 31487809, 57289, 31487809, none</column>
+<column name="layer5_U0">layer5, 57289, 33459097, 57289, 33459097, none</column>
+<column name="layer1_U0">layer1, 477, 31355889, 477, 31355889, none</column>
+<column name="Loop_1_proc221_U0">Loop_1_proc221, 16396, 16396, 16396, 16396, none</column>
+<column name="layer2_U0">layer2, 19967233, 19967233, 19967233, 19967233, none</column>
+<column name="layer7_U0">layer7, 20472577, 20472577, 20472577, 20472577, none</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="6">Name, BRAM_18K, DSP48E, FF, LUT, URAM</keys>
+<column name="DSP">-, -, -, -, -</column>
+<column name="Expression">-, -, -, -, -</column>
+<column name="FIFO">0, -, 280, 960, -</column>
+<column name="Instance">167, 10, 12440, 38533, 0</column>
+<column name="Memory">-, -, -, -, -</column>
+<column name="Multiplexer">-, -, -, -, -</column>
+<column name="Register">-, -, -, -, -</column>
+<specialColumn name="Available">280, 220, 106400, 53200, 0</specialColumn>
+<specialColumn name="Utilization (%)">59, 4, 11, 74, 0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="7">Instance, Module, BRAM_18K, DSP48E, FF, LUT, URAM</keys>
+<column name="FSRCNN_scalar_parameters_s_axi_U">FSRCNN_scalar_parameters_s_axi, 0, 0, 66, 76, 0</column>
+<column name="Loop_1_proc221_U0">Loop_1_proc221, 0, 0, 1306, 2726, 0</column>
+<column name="layer1_U0">layer1, 16, 3, 984, 3330, 0</column>
+<column name="layer2_U0">layer2, 16, 1, 371, 1218, 0</column>
+<column name="layer3_U0">layer3, 17, 1, 2798, 11723, 0</column>
+<column name="layer4_U0">layer4, 17, 1, 1384, 3296, 0</column>
+<column name="layer5_U0">layer5, 17, 1, 1377, 3248, 0</column>
+<column name="layer6_U0">layer6, 16, 1, 1927, 4439, 0</column>
+<column name="layer7_U0">layer7, 13, 1, 320, 1130, 0</column>
+<column name="layer8_U0">layer8, 55, 1, 1907, 7347, 0</column>
+</table>
+</item>
+<item name = "DSP48E"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="10">Memory, Module, BRAM_18K, FF, LUT, URAM, Words, Bits, Banks, W*Bits*Banks</keys>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="8">Name, BRAM_18K, FF, LUT, URAM, Depth, Bits, Size:D*B</keys>
+<column name="corr1_out_V_data_V_U">0, 5, 0, -, 2, 12, 24</column>
+<column name="corr1_out_V_dest_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr1_out_V_id_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr1_out_V_keep_V_U">0, 5, 0, -, 2, 4, 8</column>
+<column name="corr1_out_V_last_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr1_out_V_user_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr1_out_V_valid_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr2_out_V_data_V_U">0, 5, 0, -, 2, 12, 24</column>
+<column name="corr2_out_V_dest_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr2_out_V_id_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr2_out_V_keep_V_U">0, 5, 0, -, 2, 4, 8</column>
+<column name="corr2_out_V_last_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr2_out_V_user_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr2_out_V_valid_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr3_out_V_data_V_U">0, 5, 0, -, 2, 12, 24</column>
+<column name="corr3_out_V_dest_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr3_out_V_id_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr3_out_V_keep_V_U">0, 5, 0, -, 2, 4, 8</column>
+<column name="corr3_out_V_last_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr3_out_V_user_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr3_out_V_valid_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr4_out_V_data_V_U">0, 5, 0, -, 2, 12, 24</column>
+<column name="corr4_out_V_dest_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr4_out_V_id_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr4_out_V_keep_V_U">0, 5, 0, -, 2, 4, 8</column>
+<column name="corr4_out_V_last_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr4_out_V_user_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr4_out_V_valid_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr5_out_V_data_V_U">0, 5, 0, -, 2, 12, 24</column>
+<column name="corr5_out_V_dest_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr5_out_V_id_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr5_out_V_keep_V_U">0, 5, 0, -, 2, 4, 8</column>
+<column name="corr5_out_V_last_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr5_out_V_user_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr5_out_V_valid_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr6_out_V_data_V_U">0, 5, 0, -, 2, 12, 24</column>
+<column name="corr6_out_V_dest_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr6_out_V_id_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr6_out_V_keep_V_U">0, 5, 0, -, 2, 4, 8</column>
+<column name="corr6_out_V_last_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr6_out_V_user_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr6_out_V_valid_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr7_out_V_data_V_U">0, 5, 0, -, 2, 12, 24</column>
+<column name="corr7_out_V_dest_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr7_out_V_id_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr7_out_V_keep_V_U">0, 5, 0, -, 2, 4, 8</column>
+<column name="corr7_out_V_last_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr7_out_V_user_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr7_out_V_valid_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr8_out_V_data_V_U">0, 5, 0, -, 2, 12, 24</column>
+<column name="corr8_out_V_dest_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr8_out_V_id_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr8_out_V_keep_V_U">0, 5, 0, -, 2, 4, 8</column>
+<column name="corr8_out_V_last_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr8_out_V_user_V_U">0, 5, 0, -, 2, 1, 2</column>
+<column name="corr8_out_V_valid_V_U">0, 5, 0, -, 2, 1, 2</column>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP48E, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="s_axi_scalar_parameters_AWVALID">in, 1, s_axi, scalar_parameters, scalar</column>
+<column name="s_axi_scalar_parameters_AWREADY">out, 1, s_axi, scalar_parameters, scalar</column>
+<column name="s_axi_scalar_parameters_AWADDR">in, 6, s_axi, scalar_parameters, scalar</column>
+<column name="s_axi_scalar_parameters_WVALID">in, 1, s_axi, scalar_parameters, scalar</column>
+<column name="s_axi_scalar_parameters_WREADY">out, 1, s_axi, scalar_parameters, scalar</column>
+<column name="s_axi_scalar_parameters_WDATA">in, 32, s_axi, scalar_parameters, scalar</column>
+<column name="s_axi_scalar_parameters_WSTRB">in, 4, s_axi, scalar_parameters, scalar</column>
+<column name="s_axi_scalar_parameters_ARVALID">in, 1, s_axi, scalar_parameters, scalar</column>
+<column name="s_axi_scalar_parameters_ARREADY">out, 1, s_axi, scalar_parameters, scalar</column>
+<column name="s_axi_scalar_parameters_ARADDR">in, 6, s_axi, scalar_parameters, scalar</column>
+<column name="s_axi_scalar_parameters_RVALID">out, 1, s_axi, scalar_parameters, scalar</column>
+<column name="s_axi_scalar_parameters_RREADY">in, 1, s_axi, scalar_parameters, scalar</column>
+<column name="s_axi_scalar_parameters_RDATA">out, 32, s_axi, scalar_parameters, scalar</column>
+<column name="s_axi_scalar_parameters_RRESP">out, 2, s_axi, scalar_parameters, scalar</column>
+<column name="s_axi_scalar_parameters_BVALID">out, 1, s_axi, scalar_parameters, scalar</column>
+<column name="s_axi_scalar_parameters_BREADY">in, 1, s_axi, scalar_parameters, scalar</column>
+<column name="s_axi_scalar_parameters_BRESP">out, 2, s_axi, scalar_parameters, scalar</column>
+<column name="ap_clk">in, 1, ap_ctrl_none, FSRCNN, return value</column>
+<column name="ap_rst_n">in, 1, ap_ctrl_none, FSRCNN, return value</column>
+<column name="stream_in_TDATA">in, 32, axis, stream_in_V_data_V, pointer</column>
+<column name="stream_in_TKEEP">in, 4, axis, stream_in_V_keep_V, pointer</column>
+<column name="stream_in_TSTRB">in, 4, axis, stream_in_V_strb_V, pointer</column>
+<column name="stream_in_TUSER">in, 1, axis, stream_in_V_user_V, pointer</column>
+<column name="stream_in_TLAST">in, 1, axis, stream_in_V_last_V, pointer</column>
+<column name="stream_in_TID">in, 1, axis, stream_in_V_id_V, pointer</column>
+<column name="stream_in_TDEST">in, 1, axis, stream_in_V_dest_V, pointer</column>
+<column name="stream_in_TVALID">in, 1, axis, stream_in_V_dest_V, pointer</column>
+<column name="stream_in_TREADY">out, 1, axis, stream_in_V_dest_V, pointer</column>
+<column name="stream_out_TDATA">out, 32, axis, stream_out_V_data_V, pointer</column>
+<column name="stream_out_TKEEP">out, 4, axis, stream_out_V_keep_V, pointer</column>
+<column name="stream_out_TSTRB">out, 4, axis, stream_out_V_strb_V, pointer</column>
+<column name="stream_out_TUSER">out, 1, axis, stream_out_V_user_V, pointer</column>
+<column name="stream_out_TLAST">out, 1, axis, stream_out_V_last_V, pointer</column>
+<column name="stream_out_TID">out, 1, axis, stream_out_V_id_V, pointer</column>
+<column name="stream_out_TDEST">out, 1, axis, stream_out_V_dest_V, pointer</column>
+<column name="stream_out_TVALID">out, 1, axis, stream_out_V_dest_V, pointer</column>
+<column name="stream_out_TREADY">in, 1, axis, stream_out_V_dest_V, pointer</column>
+</table>
+</item>
+</section>
+</profile>
